@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 1em;
+    color: #6b7177
+}
+
+.tt-home-01 {
+    background-color: aqua;
+    height: 600px;
+    margin-bottom: 20px;
+
+    .tt-container-01 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .tt-banner-01 img {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+
+
+
+//gird
+.grid {
+    background-color: #ffffff;
+    height: 300px;
+    margin: 0px 100px 30px 100px;
+
+    .quote__quote {
+        font-size: 1.2em;
+        color: rgb(58, 43, 43);
+        font-family: cursive;
+    }
+
+    .pillar-testimonial--inline {
+        margin-top: 70px;
+        margin-bottom: 32px;
+    }
+
+    .gutter-bottom {
+        margin-bottom: 32px !important;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    blockquote {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+    }
+
+    blockquote h1 {
+        margin-bottom: 15px;
+        font-family: cursive;
+    }
+
+    p.quote__quote.gutter-bottom {
+        margin: 0px 350px;
+    }
+}
+
+//video
+.bd-vd {
+    background-color: aquamarine;
+    height: 500px;
+    margin: 0px 500px;
+    margin-bottom: 20px;
+
+    .vd-01 {
+        position: absolute;
+    }
+
+}
+
+//bd-tt-01
+
+.bd-tt-01 {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    margin: 0px 300px;
+
+    .bd-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pillars__wrapper {
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    //left
+    .bd-left-01 {
+        background-image: url('../../assets/images/rsz_3work-01.png');
+        width: 50%;
+        height: 100%;
+        float: left;
+
+    }
+
+    //right
+    .bd-right-01 {
+        width: 50%;
+        height: 50%;
+        margin-top: 60px;
+        float: right;
+
+    }
+
+    .bd-text {
+        margin: 0px 0px 45px 90px;
+        padding: 0px 96px 0px 0px;
+
+    }
+
+    .bd-text .hedding-3 {
+        font-size: 1.875em;
+        color: #212326;
+        margin-bottom: 0.6em
+    }
+
+    a.bd-icon.link--secondary {
+        color: #008060;
+        padding-right: 1.2em;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+
+}
+
+//bd-tt-02
+
+.bd-tt-02 {
+    height: 400px;
+    margin: 0px 300px;
+    margin-bottom: 20px;
+
+    .bd-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    //left
+    .bd-left-02 {
+        margin-top: 100px;
+        width: 50%;
+        height: 50%;
+        float: left;
+    }
+
+    .bd-text {
+        margin: 0px 0px 45px 90px;
+        padding: 0px 96px 0px 0px;
+
+    }
+
+    .bd-text .hedding-3 {
+        font-size: 1.875em;
+        color: #212326;
+        margin-bottom: 0.6em
+    }
+
+    a.bd-icon.link--secondary {
+        color: #008060;
+        padding-right: 1.2em;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    //right
+    .bd-right-02 {
+        background-image: url('../../assets/images/rsz_1work-02.png');
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+}
+
+//bd-tt-03
+
+.bd-tt-03 {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    margin: 0px 300px;
+    margin-bottom: 100px;
+
+    .bd-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pillars__wrapper {
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    //left
+    .bd-left-03 {
+        background-image: url('../../assets/images/rsz_work-03.png');
+        width: 50%;
+        height: 100%;
+        float: left;
+
+    }
+
+    //right
+    .bd-right-03 {
+        width: 50%;
+        height: 50%;
+        margin-top: 60px;
+        float: right;
+
+    }
+
+    .bd-text {
+        margin: 0px 0px 45px 90px;
+        padding: 0px 96px 0px 0px;
+
+    }
+
+    .bd-text .hedding-3 {
+        font-size: 1.875em;
+        color: #212326;
+        margin-bottom: 0.6em
+    }
+
+    a.bd-icon.link--secondary {
+        color: #008060;
+        padding-right: 1.2em;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+}
+
+//bd-tt-04
+
+.bd-tt-04 {
+    height: 700px;
+    margin: 0px 200px;
+    margin-bottom: 20px;
+
+    .bd-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    //left
+    .bd-left-04 {
+        background-color: #202632;
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+
+    h3.bd-text-heading.hedding-1 {
+        font-size: 2.5em;
+        margin-bottom: 1.1em;
+    }
+
+    .bd-text {
+        display: table;
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+
+    .grids {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -18px;
+        margin-right: -18px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .grid__item--tablet-up-half {
+        width: 50%;
+
+    }
+
+    .grid__item {
+        padding-left: 18px;
+        padding-right: 18px;
+        display: flex;
+        display: block;
+        position: relative;
+        float: left;
+    }
+
+    //right
+    .bd-right-04 {
+        background-image: url('../../assets/images/work-04.png');
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+}
